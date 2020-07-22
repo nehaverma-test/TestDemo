@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="qaacademy.TestAutomationProject.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Test Two(failed)" verbose="0">
+    <classes>
+      <class name="qaacademy.TestAutomationProject.HomePage">
+        <methods>
+          <include name="function"/>
+          <include name="launching"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- qaacademy.TestAutomationProject.HomePage -->
+    </classes>
+  </test> <!-- Test Two(failed) -->
+  <test thread-count="5" parallel="tests" name="Test One(failed)" verbose="0">
+    <classes>
+      <class name="qaacademy.TestAutomationProject.verifyHomePageElement">
+        <methods>
+          <include name="FetchTitle"/>
+          <include name="launching"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- qaacademy.TestAutomationProject.verifyHomePageElement -->
+    </classes>
+  </test> <!-- Test One(failed) -->
+</suite> <!-- Failed suite [Suite] -->

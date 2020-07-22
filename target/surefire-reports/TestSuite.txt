@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 0.877 s <<< FAILURE! - in TestSuite
+qaacademy.TestAutomationProject.HomePage.launching  Time elapsed: 0.372 s  <<< FAILURE!
+java.lang.NullPointerException
+	at qaacademy.TestAutomationProject.HomePage.launching(HomePage.java:22)
+
+qaacademy.TestAutomationProject.verifyHomePageElement.launching  Time elapsed: 0.373 s  <<< FAILURE!
+java.lang.NullPointerException
+	at qaacademy.TestAutomationProject.verifyHomePageElement.launching(verifyHomePageElement.java:23)
+
